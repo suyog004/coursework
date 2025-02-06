@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Subscription Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Header */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Rows */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+button, .edit-btn, .delete-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Edit Button */
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Button Hover Effects */
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Add Subscription Button */
+.add-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
